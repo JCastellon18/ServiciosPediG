@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="72aab19e674f4f51aa251fc9c5a450c1" Name="Diagram1" ZoomLevel="95" >
+        <EntityTypeShape EntityType="PediGModel.Cliente" Width="1.75" PointX="14" PointY="11.5" />
+        <EntityTypeShape EntityType="PediGModel.DetalleFactura" Width="1.75" PointX="11.375" PointY="6.5" />
+        <EntityTypeShape EntityType="PediGModel.TipoEntrega" Width="1.75" PointX="17" PointY="8.875" />
+        <EntityTypeShape EntityType="PediGModel.Articulo" Width="1.75" PointX="8.625" PointY="6.5" />
+        <EntityTypeShape EntityType="PediGModel.Categoria" Width="1.75" PointX="8.625" PointY="3.5" />
+        <EntityTypeShape EntityType="PediGModel.User" Width="1.75" PointX="17" PointY="3.5" />
+        <EntityTypeShape EntityType="PediGModel.Factura" Width="1.75" PointX="14" PointY="6.5" />
+        <EntityTypeShape EntityType="PediGModel.TipoDePago" Width="1.75" PointX="14" PointY="3.5" />
+        <EntityTypeShape EntityType="PediGModel.EstadoFactura" Width="1.75" PointX="17" PointY="6.5" />
+        <AssociationConnector Association="PediGModel.ClienteFactura" />
+        <AssociationConnector Association="PediGModel.FacturaDetalleFactura" />
+        <AssociationConnector Association="PediGModel.ArticuloDetalleFactura" />
+        <AssociationConnector Association="PediGModel.TipoEntregaFactura" />
+        <AssociationConnector Association="PediGModel.CategoriaArticulo" />
+        <AssociationConnector Association="PediGModel.TipoDePagoFactura" />
+        <AssociationConnector Association="PediGModel.EstadoFacturaFactura" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

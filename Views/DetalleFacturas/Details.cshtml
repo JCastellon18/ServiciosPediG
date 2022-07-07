@@ -1,0 +1,58 @@
+﻿@model ServiciosPediG.Models.DetalleFactura
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DetalleFactura</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PrecionUnitario)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrecionUnitario)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cantidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cantidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subtotal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subtotal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FacturaId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FacturaId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Articulo.NombreArticulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Articulo.NombreArticulo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
